@@ -39,6 +39,27 @@
         //Definimos la variable de salida
         var resultado;
     
+//Verificar si las casillas de las variables estan en blanco
+if(a== ""){
+        a = 0
+    }else{
+        a = parseInt(a);
+    }
+
+    if(b == ""){
+        b = 0
+    }else{
+        b = parseInt(b);
+    }
+    
+    //Realizamos la suma
+    resultado = a + b;
+
+    //Mostramos el resultado
+    document.getElementById("resultado").value = resultado;
+}
+
+
 
 
 
